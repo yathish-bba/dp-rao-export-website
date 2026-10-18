@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="D P Rao Areca Leaf Plates — natural, disposable plates made from areca leaves. Explore our product sizes and wholesale enquiries.">
+  <title>D P Rao | Areca Leaf Plates</title>
+
+  <style>
+    :root {
+      --green: #174b35;
+      --green-light: #286448;
+      --cream: #f7f4e9;
+      --gold: #d6b66c;
+      --text: #24352b;
+      --white: #ffffff;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--green);
+      color: white;
+      padding: 18px 6%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .brand {
+      font-size: 23px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .brand span { color: var(--gold); }
+
+    nav { display: flex; gap: 18px; flex-wrap: wrap; }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    nav a:hover { color: var(--gold); }
+
+    .hero {
+      background: linear-gradient(135deg, #123d2b, #286448);
+      color: white;
+      padding: 76px 7%;
+      text-align: center;
+    }
+
+    .eyebrow {
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: clamp(36px, 7vw, 60px);
+      line-height: 1.12;
+      margin: 18px auto;
+      max-width: 850px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: 0 auto 28px;
+      color: #e5eee7;
+      font-size: 17px;
+    }
+
+    .button {
+      display: inline-block;
+      background: var(--gold);
+      color: #183a29;
+      padding: 13px 23px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 5px;
+    }
+
+    .button-outline {
+      background: transparent;
+      color: white;
+      border: 1px solid white;
+    }
+
+    section { padding: 60px 7%; }
+
+    .section-heading {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .section-heading h2 {
+      color: var(--green);
+      font-size: clamp(27px, 5vw, 36px);
+      margin-bottom: 8px;
+    }
+
+    .section-heading p {
+      max-width: 650px;
+      margin: auto;
+      color: #637166;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 18px;
+    }
+
+    .feature {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      border: 1px solid #e8e4d7;
+    }
+
+    .feature .icon { font-size: 30px; }
+
+    .feature h3 {
+      color: var(--green);
+      margin: 10px 0 6px;
+    }
+
+    .products { background: white; }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+      gap: 14px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .product {
+      background: var(--cream);
+      border-radius: 9px;
+      padding: 22px 12px;
+      text-align: center;
+      border: 1px solid #e6e0cf;
+    }
+
+    .plate {
+      width: 82px;
+      height: 82px;
+      margin: 0 auto 12px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #f7edcf 0 35%, #d9c18b 37% 49%, #f1e4bc 52% 63%, #c6a86d 66% 70%, #e7d5a4 73%);
+      box-shadow: 0 5px 10px #00000015;
+    }
+
+    .product h3 { color: var(--green); font-size: 17px; }
+    .product p { font-size: 13px; color: #657066; }
+
+    .about {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 35px;
+      align-items: center;
+    }
+
+    .about-panel {
+      background: var(--green);
+      color: white;
+      padding: 30px;
+      border-radius: 12px;
+    }
+
+    .about-panel h3 {
+      color: var(--gold);
+      font-size: 25px;
+      margin-bottom: 12px;
+    }
+
+    .contact { background: #eae9dc; text-align: center; }
+
+    .contact-box {
+      background: white;
+      border-radius: 12px;
+      padding: 30px 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    footer {
+      background: #102f22;
+      color: #e5eee7;
+      text-align: center;
+      padding: 24px 15px;
+      font-size: 13px;
+    }
+
+    footer p { margin: 5px; }
+
+    @media (max-width: 480px) {
+      header { justify-content: center; text-align: center; }
+      nav { justify-content: center; gap: 12px; }
+      .hero { padding: 58px 6%; }
+      section { padding: 45px 6%; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="brand">D P <span>RAO</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="eyebrow">Natural • Simple • Responsible</div>
+      <h1>Nature's Leaves.<br>Beautifully Served.</h1>
+      <p>
+        Discover areca leaf plates for food service, events, catering
+        and wholesale enquiries. Explore our range of natural plate sizes.
+      </p>
+      <a class="button" href="#products">Explore Products</a>
+      <a class="button button-outline" href="#contact">Wholesale Enquiry</a>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <h2>A Natural Choice</h2>
+        <p>Practical serving plates made from fallen areca palm leaf sheaths.</p>
+      </div>
+
+      <div class="features">
+        <article class="feature">
+          <div class="icon">🌿</div>
+          <h3>Leaf-Based</h3>
+          <p>Made using areca palm leaf material.</p>
+        </article>
+
+        <article class="feature">
+          <div class="icon">🍽️</div>
+          <h3>Multiple Sizes</h3>
+          <p>Different sizes to suit a variety of serving needs.</p>
+        </article>
+
+        <article class="feature">
+          <div class="icon">📦</div>
+          <h3>Wholesale Enquiries</h3>
+          <p>Contact us to discuss product sizes, quantities and pricing.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <div class="section-heading">
+        <h2>Our Products</h2>
+        <p>Choose from our round and square-style box plate ranges.</p>
+      </div>
+
+      <h3 style="text-align:center;color:#174b35;margin-bottom:18px;">
+        Round Plates
+      </h3>
+
+      <div class="product-grid">
+        <article class="product">
+          <div class="plate"></div>
+          <h3>4 Inch</h3>
+          <p>Round plate</p>
+        </article>
+        <article class="product">
+          <div class="plate"></div>
+          <h3>4.5 Inch</h3>
+          <p>Round plate</p>
+        </article>
+        <article class="product">
+          <div class="plate"></div>
+          <h3>6 Inch</h3>
+          <p>Round plate</p>
+        </article>
+        <article class="product">
+          <div class="plate"></div>
+          <h3>10 Inch</h3>
+          <p>Round plate</p>
+        </article>
+        <article class="product">
+          <div class="plate"></div>
+          <h3>12 Inch</h3>
+          <p>Round plate</p>
+        </article>
+      </div>
+
+      <h3 style="text-align:center;color:#174b35;margin:35px 0 18px;">
+        Box Plates
+      </h3>
+
+      <div class="product-grid">
+        <article class="product">
+          <div class="plate"></div>
+          <h3>6 Inch</h3>
+          <p>Box plate</p>
+        </article>
+        <article class="product">
+          <div class="plate"></div>
+          <h3>8 Inch</h3>
+          <p>Box plate</p>
+        </article>
+        <article class="product">
+          <div class="plate"></div>
+          <h3>10 Inch</h3>
+          <p>Box plate</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about">
+        <div>
+          <div class="eyebrow" style="color:#286448;">About Our Business</div>
+          <h2 style="font-size:34px;color:#174b35;margin:12px 0;">
+            D P Rao Areca Leaf Plates
+          </h2>
+          <p>
+            We make areca leaf plates and welcome enquiries from retailers,
+            distributors, caterers and potential international buyers.
+          </p>
+          <p style="margin-top:12px;">
+            Contact us to discuss available sizes, order quantities,
+            packaging and business requirements.
+          </p>
+        </div>
+
+        <div class="about-panel">
+          <h3>Let's Work Together</h3>
+          <p>
+            Looking for a supplier of areca leaf plates?
+            Tell us what sizes and quantities you need so we can discuss
+            your requirements.
+          </p>
+          <p style="margin-top:14px;">📍 Bhadravathi, Karnataka, India</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-heading">
+        <h2>Contact D P Rao</h2>
+        <p>For product details, wholesale pricing and export enquiries.</p>
+      </div>
+
+      <div class="contact-box">
+        <h3 style="color:#174b35;margin-bottom:10px;">
+          Interested in Our Products?
+        </h3>
+        <p>
+          Please contact us directly to discuss sizes, quantities,
+          packaging and delivery requirements.
+        </p>
+        <p style="margin
